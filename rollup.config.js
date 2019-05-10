@@ -30,13 +30,5 @@ export default [
       format: "cjs"
     },
     plugins
-  },
-  {
-    input: "src/worker1.js",
-    output: {
-      file: "build/worker1.js",
-      format: "cjs"
-    },
-    plugins
   }
 ];
