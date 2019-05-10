@@ -9,7 +9,8 @@
     "build:watch": "rollup -c -w rollup.config.js"
   },
   "files": [
-    "/build"
+    "/build",
+    "/storage"
   ],
   "dependencies": {
     "async-redis": "^1.1.7",

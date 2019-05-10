@@ -30,5 +30,22 @@ export default [
       format: "cjs"
     },
     plugins
+  },
+  // for individual imports
+  {
+    input: "src/storage/nedb.js",
+    output: {
+      file: "storage/nedb.js",
+      format: "cjs"
+    },
+    plugins
+  },
+  {
+    input: "src/storage/redis.js",
+    output: {
+      file: "storage/redis.js",
+      format: "cjs"
+    },
+    plugins
   }
 ];
