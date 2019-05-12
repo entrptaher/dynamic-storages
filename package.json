@@ -3,13 +3,12 @@
   "version": "0.0.4",
   "description": "Experimental async storages with redis, nedb etc.",
   "license": "ISC",
-  "main": "build/index.js",
+  "main": "storage/index.js",
   "scripts": {
     "build": "rollup -c rollup.config.js",
     "build:watch": "rollup -c -w rollup.config.js"
   },
   "files": [
-    "/build",
     "/storage"
   ],
   "dependencies": {
