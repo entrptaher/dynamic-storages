@@ -1,6 +1,6 @@
 {
   "name": "dynamic-storages",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Experimental async storages with redis, nedb etc.",
   "license": "ISC",
   "main": "storage/index.js",
